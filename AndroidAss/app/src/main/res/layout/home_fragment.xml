@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/filmwatching"
+    android:id="@+id/home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="9dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/boarder">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_info__tv"
+                android:layout_weight="1"
+                android:textColor="#0F1D6A"
+                android:textSize="28sp"
+                android:textStyle="italic"
+                android:text="hello"
+                android:typeface="serif"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_tv"
+                android:layout_weight="1"
+                android:textColor="#312B3C"
+                android:textSize="19sp"
+                android:text="2020-10-20"
+                android:gravity="end"
+                android:layout_marginRight="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020 TOP 5 MOVIE"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center"
+            android:textColor="#152787"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_container"
+            android:orientation="vertical"
+            android:divider="@drawable/divider"
+            android:showDividers="middle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

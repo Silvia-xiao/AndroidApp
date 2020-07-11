@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MovieMemoir</string>
+    <string-array name="state_array">
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>NSW</item>
+        <item>WA</item>
+        <item>SA</item>
+        <item>TAS</item>
+        <item>ACT</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="sort_array">
+        <item>None</item>
+        <item>WatchDate</item>
+        <item>Your rating</item>
+        <item>Public Ratings</item>
+    </string-array>
+    <string-array name="select_year_array">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="facebook_app_id">240219447257910</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_your_memoir_here_like_your_feelings">Add your memoir here like your feelings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapauto">Map</string>
+
+</resources>

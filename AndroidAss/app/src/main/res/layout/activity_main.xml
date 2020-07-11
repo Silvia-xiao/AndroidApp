@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/spirited_awaybgblue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0DFFEB3B"
+        android:text="Welcome to MovieMemoir! :)"
+        android:textColor="#3F51B5"
+        android:typeface="serif"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:typeface="serif"
+        android:textColorHint="#3F51B5"
+        android:textColor="#3F51B5"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:typeface="serif"
+        android:textColorHint="#3F51B5"
+        android:textColor="#3F51B5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/login_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#99F4CC54"
+            android:text="LOG IN"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textColor="#3F51B5"
+            android:layout_marginLeft="100dp"/>
+        <CheckBox
+            android:id="@+id/password_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show password"
+            android:textSize="11sp"
+            android:textColor="#3F51B5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="240dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="New to MovieMemoir?"
+            android:textColor="#9ACDDC39"
+            android:textStyle="italic"
+            android:typeface="serif"
+            />
+
+        <Button
+            android:id="@+id/sign_up_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#9ACDDC39"
+            android:text="Sign up now!"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textColor="#3F51B5"/>
+    </LinearLayout>
+
+</LinearLayout>

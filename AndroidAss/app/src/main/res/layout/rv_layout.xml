@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/boarder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/rv_movie_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:gravity="center"
+            android:textColor="#046159"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/rv_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Release"
+            android:gravity="center"
+            android:textColor="#046159"/>
+        <TextView
+            android:id="@+id/rv_add_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="add date"
+            android:gravity="center"
+            android:textColor="#046159"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/iv_item_delete"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:text="Delete"
+                android:textSize="10sp"
+                android:typeface="serif"
+                android:backgroundTint="#99768336"
+                android:textColor="#053307"/>
+
+            <Button
+                android:id="@+id/iv_view_detail"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="50dp"
+                android:text="Details"
+                android:typeface="serif"
+                android:textSize="10sp"
+                android:backgroundTint="#99768336"
+                android:textColor="#053307"/>
+            <Button
+                android:id="@+id/iv_post_facebook_bt"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="50dp"
+                android:text="Post"
+                android:typeface="serif"
+                android:textSize="10sp"
+                android:backgroundTint="#99768336"
+                android:textColor="#053307"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
